@@ -45,7 +45,7 @@ grabAmmo()
 
 def populateTable():
     for ammo in dic_gun:
-        f = open('baseJson.json')
+        f = open('baseJsonTemplate.json')
         data = json.load(f)
         data["pools"][0]["entries"][0]["name"] = data["pools"][0]["entries"][0]["name"]+ammo
         for gun in dic_gun[ammo]["guns"]:
