@@ -1,1 +1,0 @@
-{"type": "minecraft:chest", "pools": [{"rolls": 1, "entries": [{"type": "minecraft:item", "name": "tac:ae50", "functions": [{"function": "minecraft:set_count", "count": {"min": 2, "max": 10}}]}]}, {"rolls": 1, "entries": [{"type": "minecraft:item", "name": "tac:deagle_357", "weight": 3}, {"type": "minecraft:item", "name": "tac:timeless_50", "weight": 3}]}]}

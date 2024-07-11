@@ -12,15 +12,15 @@ dic_gun = {}
 def generateWeight(weight):
     match weight:
         case 1:
-            return 10000
+            return 200
         case 2: 
-            return 500
+            return 100
         case 3:
-            return 8
+            return 20
         case 4: 
-            return 3
+            return 10
         case 5:
-            return 1
+            return 5
 
 def grabAmmo():
     for row in ws.iter_rows():
@@ -54,7 +54,7 @@ def populateTable():
                 "name": "tac:"+gun['name'],
                 "weight": gun['rarity']
             })
-        with open('loot/'+ammo+'.json', 'w') as wf:
+        with open('loot/gun/'+ammo+'.json', 'w') as wf:
             json.dump(data, wf)
 
 
@@ -69,16 +69,17 @@ def generateAvgRarity(guns):
     return int(average_rarity)
 
 def populateMainLoot():
-    f = open('loot_table.json')
+    f = open('loot/gun_loot_table.json')
     data = json.load(f)
+    data["pools"][0]["entries"] = []
     for ammo in dic_gun:
         data["pools"][0]["entries"].append(
         {
           "type": "minecraft:loot_table",
-          "name": "hg:loot/"+ammo,
+          "name": "hg:loot/gun/"+ammo,
           "weight": generateAvgRarity(dic_gun[ammo])
         })
-    with open("loot_table.json", 'w') as wf:
+    with open("loot/gun_loot_table.json", 'w') as wf:
         json.dump(data, wf)
 
 populateMainLoot()

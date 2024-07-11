@@ -1,1 +1,0 @@
-{"type": "minecraft:chest", "pools": [{"rolls": 1, "entries": [{"type": "minecraft:item", "name": "tac:762x54", "functions": [{"function": "minecraft:set_count", "count": {"min": 2, "max": 10}}]}]}, {"rolls": 1, "entries": [{"type": "minecraft:item", "name": "tac:dp28", "weight": 8}]}]}
