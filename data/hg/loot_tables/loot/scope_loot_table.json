@@ -1,0 +1,80 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:coyote_sight",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:aimpoint_t2",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:aimpoint_t1",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:eotech_n",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:vortex_uh_1",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:eotech_short",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:srs_red_dot",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:acog_4x_scope",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:qmk152",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:elcan_14x",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:mini_dot",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:sro_dot",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:lpvo_1_6",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tac:8x_scope",
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

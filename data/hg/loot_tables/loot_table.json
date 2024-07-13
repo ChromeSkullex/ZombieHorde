@@ -6,8 +6,43 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
+                    "name": "hg:loot/consumable_loot_table"
+                },
+                {
+                    "type": "minecraft:empty"
+                }
+            ]
+        },
+        {
+            "rolls": {
+              "min": 1,
+              "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
                     "name": "hg:loot/gun_loot_table",
-                    "weight": 1
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "hg:loot/pool2_table",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "hg:loot/melee_loot_table",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "hg:loot/armor_loot_table",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "hg:loot/consumable_loot_table",
+                    "weight": 200
                 }
             ]
         }

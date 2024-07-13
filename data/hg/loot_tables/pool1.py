@@ -4,7 +4,7 @@ import numpy as np
 
 path = "minecraft_loot.xlsx"
 
-ws = openpyxl.load_workbook(path).active
+ws = openpyxl.load_workbook(path)['pool1']
 
 ammos = []
 dic_gun = {}
@@ -81,5 +81,6 @@ def populateMainLoot():
         })
     with open("loot/gun_loot_table.json", 'w') as wf:
         json.dump(data, wf)
+    
 
 populateMainLoot()

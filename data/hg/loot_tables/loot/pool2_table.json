@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "hg:loot/ammo_loot_table",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "hg:loot/scope_loot_table",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "hg:loot/grenade_loot_table",
+                    "weight":1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "hg:loot/attachment_loot_table",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

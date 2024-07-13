@@ -1,0 +1,110 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:broken_bottle",
+                    "weight": 200
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:baseball_bat",
+                    "weight": 200
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:night_stick",
+                    "weight": 200
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:pipe",
+                    "weight": 200
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:fire_extinguisher",
+                    "weight": 200
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:tennis_racket",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:pan",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:spiked_baseball_bat",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:spiked_plank",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:golf_stick",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:soap_in_a_sock",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:cleaver",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:guitar",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:red_crowbar",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:pipe_wrench",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:emergency_axe",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:fire_axe",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:head_cutter",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:katana",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apocalypsenow:comically_large_spoon",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}
