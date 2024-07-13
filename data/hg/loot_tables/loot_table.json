@@ -9,6 +9,10 @@
                     "name": "hg:loot/consumable_loot_table"
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "name": "hg:loot/food_loot_table"
+                },
+                {
                     "type": "minecraft:empty"
                 }
             ]
@@ -16,7 +20,7 @@
         {
             "rolls": {
               "min": 1,
-              "max": 5
+              "max": 3
             },
             "entries": [
                 {
