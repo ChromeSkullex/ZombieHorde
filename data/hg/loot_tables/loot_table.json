@@ -1,6 +1,53 @@
 {
     "type": "minecraft:chest",
     "pools": [
+        {"rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 200
+
+                },
+                
+                {
+                    
+                    "type": "minecraft:item",
+                    "name": "flashlight:flashlight",
+                    "weight": 50
+                },
+                {
+                    
+                    "type": "minecraft:item",
+                    "name": "flashlight:smallredstonebattery",
+                    "weight": 100
+
+                },
+                {
+                    
+                    "type": "minecraft:item",
+                    "name": "hangglider:hang_glider",
+                    "weight": 1
+
+                },
+                {
+                    
+                    "type": "minecraft:item",
+                    "name": "hangglider:glider_wing",
+                    "weight": 15
+
+                },
+                {
+                    
+                    "type": "minecraft:item",
+                    "name": "hangglider:glider_framework",
+                    "weight": 5
+
+                }
+            ]
+        },
         {
             "rolls": {
                 "min": 0,
